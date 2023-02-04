@@ -51,10 +51,8 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Select Test
-            </div>
+           
+          
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
@@ -77,11 +75,7 @@
             <!-- Divider -->
             <hr class="sidebar-divider">
 
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Addons
-            </div>
-
+           
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
@@ -93,7 +87,6 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">User Profile</h6>
                         <a class="collapse-item" href="login.html">Student Info</a>
-						 <a class="collapse-item" href="login.html">Edit Profile</a>
 						 <a class="collapse-item" href="login.html">Change Password</a>
                        </div>
                 </div>
@@ -148,58 +141,7 @@
                     <ul class="navbar-nav ml-auto">
 
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-                        <li class="nav-item dropdown no-arrow d-sm-none">
-                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-search fa-fw"></i>
-                            </a>
-                            <!-- Dropdown - Messages -->
-                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
-                                aria-labelledby="searchDropdown">
-                                <form class="form-inline mr-auto w-100 navbar-search">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control bg-light border-0 small"
-                                            placeholder="Search for..." aria-label="Search"
-                                            aria-describedby="basic-addon2">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="button">
-                                                <i class="fas fa-search fa-sm"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </li>
-
-                        <!-- Nav Item - Alerts -->
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-bell fa-fw"></i>
-                                <!-- Counter - Alerts -->
-                                <span class="badge badge-danger badge-counter">3+</span>
-                            </a>
-                            <!-- Dropdown - Alerts -->
-                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                                aria-labelledby="alertsDropdown">
-                                <h6 class="dropdown-header">
-                                    Alerts Center
-                                </h6>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-primary">
-                                            <i class="fas fa-file-alt text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 12, 2019</div>
-                                        <span class="font-weight-bold">A new monthly report is ready to download!</span>
-                                    </div>
-                                </a>
-                               
-                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
-                            </div>
-                        </li>
+                        
 
                         
 
@@ -218,7 +160,7 @@
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Edit Profile
+                                    Student Info
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -321,12 +263,43 @@
                 </div>
 				<div class="row mt-2">
                     <div class="col-md-6"><label class="labels">Mobile No.</label><input type="text" class="form-control" placeholder="Mobile" value=""></div>
-                    <div class="col-md-6"><label class="labels">Whats App No.</label><input type="text" class="form-control" value="" placeholder="Whats App"></div>
+                    <div class="col-md-6"><label class="labels">Father Mobile No.</label><input type="text" class="form-control" value="" placeholder="Father Mobile"></div>
                 </div>
 				<div class="row mt-2">
                     <div class="col-md-12"><label class="labels">Address</label><input type="text" class="form-control" placeholder="Address" value=""></div>
                    
                 </div>
+				<div class="row mt-2">
+				 <div class="col-md-6"><label class="labels">State</label>
+						<select class="form-select form-control" id="state">
+      <option selected="selected">Select State</option>
+      					<option>Punjab</option>
+						<option>Haryana</option>
+						
+   							 </select>
+					</div>
+				
+				 <div class="col-md-6"><label class="labels">District</label>
+						<select class="form-select form-control" id="district">
+      <option selected="selected">Select District</option>
+      					<option>Jalandhar</option>
+						<option>Mohali</option>
+						
+   							 </select>
+					</div>
+				</div>
+				<div class="row mt-2">
+				 <div class="col-md-6"><label class="labels">City</label>
+						<select class="form-select form-control" id="city">
+      <option selected="selected">Select City</option>
+      					<option>Jalandhar Cantt</option>
+						<option>Jalandhar City</option>
+						
+   							 </select>
+					</div>
+					<div class="col-md-6"><label class="labels">PIN Code</label><input type="text" class="form-control" placeholder="PIN" value=""></div>
+				</div>
+				
 				
                 <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button> <button class="btn btn-danger profile-button" type="button">Clear</button></div>
 				
